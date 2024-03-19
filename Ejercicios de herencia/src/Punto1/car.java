@@ -26,5 +26,9 @@ public class car extends vehicle{
     public void setCylinders(int cylinders) {
         this.cylinders = cylinders;
     }
+    @Override
+    public String toString() {
+        return "Carro: " + super.toString() + ", Velocidad: " + speed + ", Cilindros: " + cylinders;
+    }
 
 }

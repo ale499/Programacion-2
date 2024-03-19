@@ -16,4 +16,8 @@ public class bicycle extends vehicle{
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+    @Override
+    public String toString() {
+        return "Bicicleta: " + super.toString() + ", Tipo: " + tipo;
+    }
 }

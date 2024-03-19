@@ -1,6 +1,5 @@
 package Punto1;
 
-import org.w3c.dom.ls.LSOutput;
 
 public class vehicle {
     private String color;
@@ -17,6 +16,10 @@ public class vehicle {
 
     public void setWheels(int wheels) {
         this.wheels = wheels;
+    }
+
+    public String getColor() {
+        return color;
     }
 
     public int getWheels() {

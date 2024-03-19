@@ -16,5 +16,9 @@ public class van extends car{
     public void setCarga(int carga) {
         this.carga = carga;
     }
+    @Override
+    public String toString() {
+        return "Furgoneta: " + super.toString() + ", Carga: " + carga;
+    }
 
 }

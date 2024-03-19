@@ -26,4 +26,8 @@ public class motorcycle extends bicycle{
     public void setCc(int cc) {
         this.cc = cc;
     }
+    @Override
+    public String toString() {
+        return "Motocicleta: " + super.toString() + ", Velocidad: " + speedKm + " km/h, Cilindrada: " + cc + " cc";
+    }
 }
